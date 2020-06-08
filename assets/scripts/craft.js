@@ -98,7 +98,7 @@ var Craft=function(options) {
     },
     "f9r-boostback": {
       position: [-120000,80000],
-      velocity: [-1800,400],
+      velocity: [-1800,500],
       engine_number: 3,
       ballast: 0,
       max_engines: 3,
