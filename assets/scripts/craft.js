@@ -84,7 +84,7 @@ var Craft=function(options) {
     },
     "f9r-rtls-extreme": {
       position: [-1400, 12000],
-      velocity: [70,-220],
+      velocity: [70,-280],
       engine_number: 1,
       ballast: 0,
       max_engines: 1,
@@ -328,7 +328,7 @@ var Craft=function(options) {
       this.rocket_body.mass=0;
       return;
     }
-    this.rocket_body.mass=(this.mass+this.fuel)*0.01;
+    this.rocket_body.mass=(this.mass+this.fuel)*0.04;
     this.updateOffset();
     if(this.gear_down) {
       this.left_leg_shape.sensor=false;
